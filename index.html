@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
 
    
+    <meta charset="UTF-8">
+
     <title> portfolio </title>
     <link  rel="stylesheet"  href="style.css">
   </head>
 
   
   <body>
-    <div class="firstclass" >
-      <h1> Hi, I am amplitud3 </h1>
-      <p> AI Developer &amp; Computer Science Engineer </p>
+    <div  class="terminal">
+      <div class="terminal-header">
+        <div class="window-controls">
+          <span class="close"></span>
+          <span class="minimize"></span>
+          <span class="maximize"></span>
 
-      <div class="projectfirst">
-        <h3> My portfolio </h3>
+        </div>
 
-        <p> This is my sample project </p>
+        <span class="title">ace@neworld: ~</span>
+      </div> 
+      <div class="terminal-body" id="output">
+
       </div>
 
+      <div class="input-line" id="input-line" style="display: none;">
+        <span class="prompt">ace@neworld:~$</span>
+        <input type="text" id="command-input" autofocus>
+      </div>
     </div>
+ <script src="script.js"></script>
 
   </body>
-
-
-
 </html>
